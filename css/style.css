@@ -47,12 +47,16 @@ h2 {
   align-items: center;
 }
 
-.button {
-display: flex;
-align-items: flex-end;
+.buttons {
+text-align: center;
+margin-top: 50px;
 }
 
-#buttondx, #buttonsx {
+button:hover {
+  border: solid purple 3px;
+}
+
+button {
   color: purple;
   font-weight: bold;
   border-radius: 5px;
@@ -68,19 +72,15 @@ align-items: flex-end;
 
 .greybox {
   background-color: grey;
-  height: 220px;
   border: solid grey 1px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
 }
 
-.greybox p {
-  padding: 30px;
-}
-
 .box2 div {
   height: 220px;
   border-top: solid grey 1px;
   border-bottom: solid grey 1px;
+  padding: 50px;
 }
