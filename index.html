@@ -2,12 +2,88 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Biglietto Treno</title>
   </head>
+
   <body>
+    <h1>CALCOLA PREZZO BIGLIETTO</h1>
+
+    <div class="container">
+      <div class="row">
+          <div class="box1">
+
+            <div class="col-lg-4 name">
+              <h2>Nome Cognome</h2>
+              <div class="form-group">
+             <label for="name"></label>
+             <input type="text" class="form-fields" name="name" id="userName">
+             </div>
+           </div>
+
+           <div class="col-lg-4 km">
+             <h2>Km da Percorrere</h2>
+             <div class="form-group">
+            <label for="name"></label>
+            <input type="text" class="form-fields" name="name" id="userName">
+            </div>
+          </div>
+
+          <div class="col-lg-4 age">
+            <h2>Fascia d'Età</h2>
+            <div class="form-group">
+           <label for="name"></label>
+           <input type="text" class="form-fields" name="name" id="userName">
+           </div>
+         </div>
+
+         <div class="col-lg-12 button">
+           <button type="button" name="button" id="buttonsx">Genera</button>
+           <button type="button" name="button" id="buttondx">Annulla</button>
+         </div>
+
+
+
+
+          </div>
+      </div>
+    </div>
+
+    <h1>IL TUO BIGLIETTO</h1>
+
+    <div class="container">
+      <div class="row">
+          <div class="box2">
+           <p>DETTAGLI PASSEGGERO</p>
+
+           <div class="col-lg-3 greybox">
+             <p>NOME PASSEGGERO </p>
+           </div>
+
+           <div class="col-lg-2">
+             <p>Offerta</p>
+           </div>
+
+           <div class="col-lg-3">
+             <p>Carrozza</p>
+           </div>
+
+           <div class="col-lg-2">
+             <p>Codice CP</p>
+           </div>
+
+           <div class="col-lg-2">
+             <p>Costo Biglietto</p>
+           </div>
+
+           </div>
+          </div>
+        </div>
+    </div>
 
     <h1 id="finalPrice"></h1>
-    <script src="js/file.js"></script>
+    <script src="js/scriptI.js"></script>
 
   </body>
 </html>
